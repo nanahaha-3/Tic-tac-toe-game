@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+*{
+  margin: 0;
+}
+body{
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p,h1{
+  color: aliceblue;
+  font-family: 'Potta One';
+  font-size: 5em;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 20px;
+  padding: 20px;
+}
+.box{
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.game-board{
+  background-color: rgb(229, 124, 141);
+  width: fit-content;
+  border-radius: 5px;
+}
+.status{
+  color: yellow;
+}
+#refresh-btn{
+  margin: 25px;
+  font-size: 1.5em;
+  padding: 5px 20px;
+  color: yellow;
+  background-color: rgb(229, 124, 141);
+  font-family: 'Potta One';
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#refresh-btn:hover{
+  background-color: rgb(132, 71, 71);
+  color:rgb(255, 239, 241)
+}
+#refresh-btn:active{
+  background-color: rgb(155, 33, 33);
+  color:rgb(240, 188, 197)
+}
