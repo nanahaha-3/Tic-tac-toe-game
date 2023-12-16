@@ -81,6 +81,6 @@ function display(counter){
 }
 
 const text = document.getElementById('text')
-text.innerHTML = `<p class="status">X vs O</p>`
+// text.innerHTML = `<p class="status">X vs O</p>`
 const refresh = document.getElementById('refresh-btn')
 refresh.addEventListener('click', ()=>{window.location.reload()})
